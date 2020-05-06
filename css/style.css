@@ -9,6 +9,7 @@
 body{
     font-family: 'Poiret One', cursive;
     overflow-x: hidden;
+    
 }
 /*Header style*/
 header{
@@ -16,12 +17,11 @@ header{
     height: 50px;
     position: fixed;
     z-index: 10;
-    overflow: visible;
 }
 header .navigation{
     width: 100%;
     height: 100%;
-    margin: auto;
+    position: relative;
 }
 header .navigation .nav{
     width: 70%;
@@ -75,13 +75,13 @@ header .navigation .nav ul li:hover{
     cursor: pointer;
 }
 header .navigation .nav ul li a::before{
-        content: "";
-        width: 0%;
-        height: 1px;
-        background-color: #000000;
-        position: absolute;
-        top: 130%;
-        left: -15%;
+    content: "";
+    width: 0%;
+    height: 1px;
+    background-color: #000000;
+    position: absolute;
+    top: 130%;
+    left: -15%;
 }
 header .navigation .nav ul li a:hover::before{
     width: 130%;
@@ -109,6 +109,30 @@ header .navigation .nav ul li ul li:hover{
 }
 header .navigation .nav ul li:hover ul{
     display: block;
+}
+.navLittle{
+    display: none;
+}
+.hamburger{
+    position: absolute;
+    width: 100%;
+    height: 70px;
+    right: 0;
+    color: #ffffff;
+    line-height: 50px;
+    font-size: 40px;
+    text-align: center;
+    display: none;
+    cursor: pointer;
+    top: 0;
+    border-bottom-left-radius: 20px;
+    background-color: #36363D;
+}
+.hamburger.color{
+    background-color: #36363D;
+}
+.hamburger .fas:focus{
+    background-color: none;
 }
 /*Section1 style*/
 .section1{
@@ -181,7 +205,6 @@ header .navigation .nav ul li:hover ul{
 .content2{
     width: 100%;
     height: 100%;
-    display: block;
     box-sizing: border-box;
 }
 .heading{
@@ -253,10 +276,9 @@ header .navigation .nav ul li:hover ul{
     width: 320px;
     min-height: 420px;
     margin-left: 5%;
-    overflow: hidden;
 }
 .images .img img{
-    width: 340px;
+    width: 320px;
     height: 100%;
 }
 /*Section3 style*/
@@ -363,6 +385,7 @@ header .navigation .nav ul li:hover ul{
 .section4{
     width: 100vw;
     height: 110vh;
+    overflow-y: hidden;
 }
 .content4{
     width: 100%;
@@ -510,6 +533,7 @@ header .navigation .nav ul li:hover ul{
 .section5{
     width: 100vw;
     height: 100vh;
+    overflow-y: hidden;
 }
 .content5{
     width: 100%;
@@ -535,7 +559,7 @@ header .navigation .nav ul li:hover ul{
 }
 .client-list{
     width: 80%;
-    height: 15%;
+    height: 30%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -544,27 +568,29 @@ header .navigation .nav ul li:hover ul{
     margin-left: auto;
     margin-right: auto;
     justify-content: space-around;
+    overflow: hidden;
+    overflow-x: scroll;
 }
 .list{
-    width: 12%;
+    width: 25%;
     height: 100%;
     margin: auto;
 }
 #list1, #list2, #list5, #list6{
-    width: 10%;
+    width: 25%;
     height: 100%;
 }
 #list3{
-    width: 10%;
+    width: 25%;
     height: 100%;
 }
 #list4{
-    width: 20%;
+    width: 40%;
     height: 100%;
     
 }
 #list7{
-    width: 14%;
+    width: 20%;
     height: 100%;
    
 }
@@ -572,10 +598,14 @@ header .navigation .nav ul li:hover ul{
     width: 100%;
     height: 100%;
 }
+.list img:hover{
+    transform: scale(1.03);
+}
 /*Section6 style*/
 .section6{
     width: 100vw;
     height: 120vh;
+    overflow-y: hidden;
 }
 .content6{
     width: 100%;
@@ -634,6 +664,7 @@ header .navigation .nav ul li:hover ul{
 .section7{
     width: 100vw;
     height: 170vh;
+    overflow-y: hidden;
 }
 .content7{
     width: 100%;
@@ -733,14 +764,14 @@ header .navigation .nav ul li:hover ul{
     margin-top: 50px;
 }
 .linkedin, .instagram, .pinterest{
-    flex: 0 0 30%;
+    flex: 0 0 10%;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 .linkedin img, .instagram img, .pinterest img{
     width: 60px;
     margin-top: 60px;
-    margin-left: 35%;
 }
 .linkedin a, .instagram a, .pinterest a{
     font-size: 24px;
@@ -748,28 +779,29 @@ header .navigation .nav ul li:hover ul{
     margin-left: 3px;
     font-family: 'Poiret One', cursive;
     color: #ffffff;
-    margin-left: 60px;
     letter-spacing: 3px;
     text-transform: uppercase;
     text-decoration: none;
-}
-.instagram a{
-    margin-left: 45px;
+    
 }
 .privacy{
-    width: 50%;
-    height: 6%;
-    margin:auto;
+    width: 100%;
+    height: 15%;
+}
+.privacy-content{
+    width: 60%;
+    height: 100%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    margin-top: 50px;
-}
-.privacy, .terms{
-    flex: 0 0 50%;
     justify-content: center;
     text-align: center;
     align-items: center;
+    margin: auto;
+}
+.privacy, .terms{
+    flex: 0 50%;
+    height: 0%;;
 }
 .privacy a, .terms a{
     font-size: 24px;
@@ -778,11 +810,8 @@ header .navigation .nav ul li:hover ul{
     color: #ffffff;
     letter-spacing: 3px;
     text-transform: uppercase;
-    bottom: 0;
     text-decoration: none;
-}
-.privacy a{
-    margin-top: -60px;
+    line-height: 0;
 }
 /*Job application*/
 .job-app{
