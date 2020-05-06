@@ -127,6 +127,7 @@ header .navigation .nav ul li:hover ul{
     top: 0;
     border-bottom-left-radius: 20px;
     background-color: #36363D;
+    display: none;
 }
 .hamburger.color{
     background-color: #36363D;
