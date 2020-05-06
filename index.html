@@ -3,14 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
     <script src="https://kit.fontawesome.com/ca60c4ab95.js"></script>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/resoponsive-style.css">
+    <link rel="stylesheet" href="css/aos.css">
     <title>Atlas official</title>
 </head>
 <body>
     <!--Start navigation bar-->
     <header>
         <div class="navigation">
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
             <div class="nav">
                 <ul>
                     <li><a href="#section1" class="home">Home</a></li>
@@ -46,7 +52,7 @@
      <!--End section 1-->
      <!--Start section 2-->
      <section class="section2" id="section2">
-        <div class="content2">
+        <div data-aos="fade-in" class="content2">
             <div class="heading">
                 <h1>About us</h1>
                 <h6>Manufacturing garment for some of the most
@@ -75,7 +81,7 @@
     <!--End section 2-->
     <!--Start section 3-->
     <section class="section3" id="section3">
-        <div class="content3">
+        <div data-aos="fade-left" class="content3">
             <div class="heading1">
                 <div class="heading2">
                     <h1>Our services</h1>
@@ -129,7 +135,7 @@
     <!--End section 3-->
     <!--Start section 4-->
     <section class="section4" id="section4">
-        <div class="content4">
+        <div data-aos="fade-right" class="content4">
             <div class="heading1" id="heading2">
                 <div class="heading2" id="heading3">
                     <h1>Portfolio</h1>
@@ -161,7 +167,7 @@
                     <div class="images" id="images2">
                         <div class="images-portfolio">
                             <div class="img1" id="img4">
-                                <img src="images/portfolio/Skirt Caroll Quitterie/KB05105F-01-jupe-femme-quitterie.jpg" alt="">
+                                <img src="images/portfolio/Skirt Caroll Quitterie/KB05105F-01-jupe-femme-quitterie_002.jpg" alt="">
                                 <h1>0</h1>
                                 <h6>Skirt Caroll Quitteries autumn 2020</h6>
                             </div>
@@ -274,7 +280,7 @@
     <!--End section 4-->
     <!--Start section 5-->
     <section class="section5" id="section5">
-        <div class="content5">
+        <div data-aos="fade-left" class="content5">
             <div class="heading1" id="heading4">
                 <div class="heading2" id="heading5">
                     <h1>Our clients</h1>
@@ -312,7 +318,7 @@
     <!--End section 5-->
     <!--Start section 6-->
     <section class="section6" id="section6">
-        <div class="content6">
+        <div data-aos="fade-right" class="content6">
             <div class="heading1" id="heading6">
                 <div class="heading2" id="heading7">
                     <h1>Contact</h1>
@@ -333,7 +339,7 @@
     <!--End section 6-->
     <!--Start section 7-->
     <section class="section7" id="section7">
-        <div class="content7">
+        <div data-aos="fade-in" data-aos-duration="3000" class="content7">
             <div class="heading1" id="heading8">
                 <div class="heading2" id="heading9">
                     <h1>How to reach us</h1>
@@ -375,11 +381,13 @@
                     </div>
                 </div>
                 <div class="privacy">
-                    <div class="privacy">
-                        <a href="#find-us" class="apply1">Privacy policy</a>
-                    </div>
-                    <div class="terms">
-                        <a href="#find-us" class="openTerm">Terms of service</a>
+                    <div class="privacy-content">
+                        <div class="privacy">
+                            <a href="#find-us" class="apply1">Privacy policy</a>
+                        </div>
+                        <div class="terms">
+                            <a href="#find-us" class="openTerm">Terms of service</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -1081,5 +1089,11 @@
     <!--Gallery section end-->
     <script src="./js/app.js"></script>
     <script src="./js/gallery.js"></script>
+    <script src="./js/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 2000,
+        });
+    </script>
 </body>
 </html>
