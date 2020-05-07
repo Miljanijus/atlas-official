@@ -120,10 +120,10 @@
     }
     /*section4*/
     .section4{
-        height: 380vh;
+        height: 400vh;
     }
     #heading2{
-        height: 6%;
+        height: 8%;
         background-color: #ffffff;
     }
     .port-slideshow{
@@ -137,14 +137,14 @@
         height: 50%;
     }
     .portfolio{
-        height: 85%;
+        height: 90%;
     }
     .images-portfolio{
         display: block;
 
     }
     .images-portfolio .img1{
-        margin-left: 25%;
+        margin-left: 30%;
         width: 380px;
         margin-top: 80px;
         min-height: 15%;
@@ -291,30 +291,35 @@
         font-size: 60px;
         margin-left: 0px;
     }
+    .logo-text h1::before{
+        top: 45%;
+        left: 17%;
+    }
     .logo-text h6{
         left: 35%;
+        top: 60%;
     }
     /*section 2*/
     .section2{
-        height: 200vh;
+        height: 220vh;
     }
     .heading{
         height: 12%;
     }
     .heading h1{
-        font-size: 24px;
+        font-size: 20px;
     }
     .heading h6{
-        font-size: 16px;
+        font-size: 14px;
     }
     .text{
-        height: 22%;
+        height: 17%;
     }
     .text p{
-        font-size: 18px;
+        font-size: 16px;
     }
     .images{
-        height: 65%;
+        height: 70%;
     }
     .images .images-about{
         width: 50%;
@@ -328,7 +333,7 @@
     }
     /*section 3*/
     .section3{
-        height: 230vh;
+        height: 250vh;
     }
     .box-content{
         width: 100%;
@@ -348,7 +353,7 @@
         bottom: -20px;
     }
     .box-content{
-        height: 80%;
+        height: 78%;
     }
     .footing{
         height: 5%;
@@ -382,7 +387,7 @@
         margin-top: 0;
     }
     .images-portfolio .img1{
-        margin-left: 30%;
+        margin-left: 35%;
         height: 40%;
         width: 260px;
     }
@@ -410,6 +415,9 @@
     #heading4 h1{
         line-height: 80px;
     }
+    #heading5{
+        width: 50%;
+    }
     .client{
         height: 85%;
     }
@@ -420,9 +428,19 @@
         height: 40%;
         margin-top: 40px;
     }
+    /*Section 6*/
+    .section6{
+        height: 140vh;
+    }
+    #heading6{
+        height: 10%;
+    }
+    #heading7{
+        width: 50%;
+    }
     /*section 7*/
     .section7{
-        height: 200vh;
+        height: 220vh;
     }
     #heading8 h1{
         font-size: 24px;
@@ -431,7 +449,7 @@
         width: 55%;
     }
     .adress{
-        margin-left: 25%;
+        margin-left: 30%;
     }
     .social{
         width: 70%;
@@ -491,23 +509,23 @@
     }
     .logo-text h1::before{
         width: 240%;
-        top: 75%;
-        left: 30%;
+        top: 85%;
+        left: 15%;
     }
     .logo-text h6{
         width: 100%;
-        left: 100%;
+        left: 80%;
         bottom: 25%;
         font-size: 8px;
-        top: 85%;
+        top: 100%;
     }
     /*section 2*/
     .section2{
-        height: 160vh;
+        height: 200vh;
     }
     .heading{
         width: 100%;
-        height: 10%;
+        height: 15%;
     }
     .heading h1{
         font-size: 18px;
@@ -522,22 +540,25 @@
         font-size: 14px;
     }
     .images{
-        height: 60%;
+        height: 55%;
     }
     .images .img img{
         width: 120px;
-        margin-top: 15px;
+        margin-top: 17px;
     }
     .images .images-about{
         height: 20%;
-        margin-left: 30%;
+        margin-left: 35%;
     }
     /*section 3*/
     .section3{
-        height: 140vh;
+        height: 160vh;
+    }
+    .heading1{
+        height: 10%;
     }
     .heading2{
-        width: 50%;
+        width: 100%;
     }
     .heading2 h1{
         font-size: 18px;
@@ -552,6 +573,9 @@
     .box h3{
         font-size: 12px;
     }
+    .footing{
+        height: 5%;
+    }
     /*section 4*/
     .section4{
         height: 240vh;
@@ -561,12 +585,15 @@
     }
     #heading3 h6{
         font-size: 12px;
+        width: 80%;
+        margin: auto;
+        margin-top: 30px;
     }
     .portfolio{
         height: 85%;
     }
     .images-portfolio .img1{
-        margin-left: 20%;
+        margin-left: 27%;
         height: 35%;
     }
     .images-portfolio .img1 img{
@@ -594,9 +621,16 @@
         width: 60%;
         margin-left: 20px;
     }
+    /*Section 5*/
+    #heading5{
+        width: 100%;
+    }
     /*section 6*/
     .section6{
         height: 130vh;
+    }
+    #heading7{
+        width: 100%;
     }
     .contact .form input{
         font-size: 16px;
@@ -616,7 +650,13 @@
         font-size: 18px;
     }
     #heading9{
-        width: 55%;
+        width: 100%;
+    }
+    .empty{
+        height: 5%;
+    }
+    .find-us{
+        height: 85%;
     }
     .map{
         width: 90%;
@@ -627,7 +667,7 @@
         margin-top: 20px;
     }
     .adress{
-        margin-left: 15%;
+        margin-left: 25%;
     }
     .adress1 h1{
         font-size: 16px;
@@ -654,10 +694,10 @@
         width: 80%;
     }
     .privacy, .terms{
-        margin-top: 100px;
+        margin-top: 80px;
     }
     .privacy a, .terms a{
-        font-size: 16px;
+        font-size: 14px;
     }
     /*Gallery style*/
     .gallery-left, .gallery-left1, .gallery-left2, .gallery-left3,
@@ -713,46 +753,5 @@
         text-align: center;
         line-height: 50px;
         cursor: pointer;
-    }
-    @media (orientation: landscape){
-        /*Section 1*/
-        .logo-text h1::before{
-            top: 110%;
-            left: 10%;
-        }
-        .logo-text h6{
-            left: 80%;
-            top: 130%;
-        }
-        /*Section 2*/
-        .section2{
-            height: 240vh;
-        }
-        .heading{
-            height: 15%;
-        }
-        .heading h1{
-            font-size: 18px;
-        }
-        .heading h6{
-            font-size: 14px;
-        }
-        .text{
-            height: 20%;
-        }
-        .text p{
-            font-size: 14px;
-        }
-        .images{
-            height: 65%;
-        }
-        /*Section 3*/
-        .section3{
-            height: 220vh;
-        }
-        .heading2{
-            width: 100%;
-            
-        }
     }
 }
