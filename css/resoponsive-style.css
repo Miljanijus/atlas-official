@@ -686,32 +686,73 @@
     .left4,.left5, .left6, .left7, .left8, .left9,
     .left10, .left11, .left12,.left13, .left14, .left15, 
     .left16, .left17,.left18, .left19{
-    width: 50px;
-    height: 50px;
-    position: absolute;
-    left: 5%;
-    top: 40%;
-    transform: translate(-50%,-50%);
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    line-height: 50px;
-    cursor: pointer;
-}
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        left: 5%;
+        top: 40%;
+        transform: translate(-50%,-50%);
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        line-height: 50px;
+        cursor: pointer;
+    }
     .gallery-center .right, .right1, .right2, .right3,
     .right4, .right5,.right6, .right7, .right8, .right9,
     .right10, .right11, .right12, .right13,.right14, .right15, 
     .right16, .right17, .right18, .right19{
-    width: 50px;
-    height: 50px;
-    position: absolute;
-    left: 95%;
-    top: 40%;
-    transform: translate(-50%,-50%);
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    line-height: 50px;
-    cursor: pointer;
-}
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        left: 95%;
+        top: 40%;
+        transform: translate(-50%,-50%);
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        line-height: 50px;
+        cursor: pointer;
+    }
+    @media (orientation: landscape){
+        /*Section 1*/
+        .logo-text h1::before{
+            top: 110%;
+            left: 10%;
+        }
+        .logo-text h6{
+            left: 80%;
+            top: 130%;
+        }
+        /*Section 2*/
+        .section2{
+            height: 240vh;
+        }
+        .heading{
+            height: 15%;
+        }
+        .heading h1{
+            font-size: 18px;
+        }
+        .heading h6{
+            font-size: 14px;
+        }
+        .text{
+            height: 20%;
+        }
+        .text p{
+            font-size: 14px;
+        }
+        .images{
+            height: 65%;
+        }
+        /*Section 3*/
+        .section3{
+            height: 220vh;
+        }
+        .heading2{
+            width: 100%;
+            
+        }
+    }
 }
