@@ -521,7 +521,7 @@
     }
     /*section 2*/
     .section2{
-        height: 200vh;
+        height: 170vh;
     }
     .heading{
         width: 100%;
@@ -552,7 +552,7 @@
     }
     /*section 3*/
     .section3{
-        height: 160vh;
+        height: 140vh;
     }
     .heading1{
         height: 10%;
@@ -578,7 +578,7 @@
     }
     /*section 4*/
     .section4{
-        height: 240vh;
+        height: 220vh;
     }
     #heading2{
         height: 10%;
@@ -644,7 +644,7 @@
     }
     /*section 7*/
     .section7{
-        height: 260vh;
+        height: 220vh;
     }
     #heading8 h1{
         font-size: 18px;
