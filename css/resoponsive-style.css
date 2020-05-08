@@ -546,6 +546,7 @@
     }
     .images .img img{
         width: 120px;
+        height: 33%;
     }
     .images .images-about{
         height: 33%;
