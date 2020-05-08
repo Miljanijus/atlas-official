@@ -521,38 +521,39 @@
     }
     /*section 2*/
     .section2{
-        height: 155vh;
+        height: 160vh;
     }
     .heading{
         width: 100%;
-        height: 15%;
+        height: 10%;
     }
     .heading h1{
         font-size: 18px;
     }
     .heading h6{
-        font-size: 14px;
+        font-size: 12px;
     }
     .text{
-        height: 30%;
+        height: 27%;
     }
     .text p{
+        margin-top: 10px;
         font-size: 14px;
+        letter-spacing: 1px;
     }
     .images{
-        height: 55%;
+        height: 63%;
     }
     .images .img img{
         width: 120px;
-        margin-top: 17px;
     }
     .images .images-about{
-        height: 20%;
+        height: 33%;
         margin-left: 35%;
     }
     /*section 3*/
     .section3{
-        height: 120vh;
+        height: 140vh;
     }
     .heading1{
         height: 10%;
@@ -564,14 +565,14 @@
         font-size: 18px;
     }
     .box-content{
-        height: 70%;
+        height:70%;
     }
     .box .img img{
         width: 120px;
         height: 120px;
     }
     .box h3{
-        font-size: 12px;
+        font-size: 10px;
     }
     .footing{
         height: 5%;
@@ -598,7 +599,7 @@
     }
     .images-portfolio .img1 img{
         width: 200px;
-        height: 80%;
+        height: 75%;
     }
     .images-portfolio .img1 h1{
         margin-top: 80px;
@@ -638,13 +639,13 @@
     .contact .form textarea{
         min-width: 100%;
         max-width: 100%;
-        max-height: 150px;
-        min-height: 150px;
+        max-height: 100px;
+        min-height: 100px;
         font-size: 16px;
     }
     /*section 7*/
     .section7{
-        height: 190vh;
+        height: 180vh;
     }
     #heading8 h1{
         font-size: 18px;
@@ -667,7 +668,9 @@
         margin-top: 20px;
     }
     .adress{
+        margin-top: 0;
         margin-left: 25%;
+        height: 5%;
     }
     .adress1 h1{
         font-size: 16px;
@@ -685,7 +688,7 @@
     }
     .linkedin img, .instagram img, .pinterest img{
         width: 50px;
-        margin-top: 50px;
+        margin-top: 30px;
     }
     .linkedin a, .instagram a, .pinterest a{
         font-size: 16px;
@@ -694,10 +697,10 @@
         width: 80%;
     }
     .privacy, .terms{
-        margin-top: 80px;
+        margin-top: 60px;
     }
     .privacy a, .terms a{
-        font-size: 14px;
+        font-size: 12px;
     }
     /*Gallery style*/
     .gallery-left, .gallery-left1, .gallery-left2, .gallery-left3,
