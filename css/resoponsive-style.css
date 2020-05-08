@@ -68,16 +68,16 @@
     }
     /*section2*/
     .section2{
-        height: 140vh;
+        height: 150vh;
     }
     .heading{
         width: 50%;
     }
     .heading h1{
-        font-size: 34px;
+        font-size: 24px;
     }
     .heading h6{
-        font-size: 24px;
+        font-size: 14px;
     }
     .images{
         height: 30%;
@@ -93,33 +93,55 @@
     }
     .text{
         width: 90%;
-        height: 50%;
+        height: 45%;
         margin: auto;
     }
     .text p{
-        font-size: 24px;
+        font-size: 18px;
     }
     /*section3*/
     .section3{
-        height: 160vh;
+        height: 180vh;
+    }
+    .heading1{
+        height: 15%;
     }
     .heading2{
+        height: 10%;
         width: 50%;
     }
     .heading2 h1{
-        font-size: 34px;
+        font-size: 24px;
+        line-height: 100px;
+    }
+    .heading2 h1::before{
+        bottom: -30px;
     }
     .box-content{
+        height: 50%;
         width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+        margin: auto;
+    }
+    .box .img img{
+        width: 130px;
+        height: 130px;
+    }
+    .box h3{
+        font-size: 16px;
+    }
+    .footing{
+        height: 10%;
     }
     .footing1{
         width: 80%;
     }
-    .footing1 h6{
-        font-size: 24px;
-    }
-    .box h3{
-        font-size: 18px;
+    .footing h6{
+        font-size: 16px;
+        line-height: 80px;
     }
     /*section4*/
     .section4{
@@ -148,13 +170,13 @@
     }
     .images-portfolio .img1{
         margin-left: 30%;
-        width: 380px;
+        width: 340px;
         margin-top: 80px;
         min-height: 30%;
     }
     .images-portfolio .img1 img{
-        width: 350px;
-        height: 466px;
+        width: 320px;
+        height: 416px;
     }
     .images-portfolio .img1 h1{
         margin-top: -300px;
@@ -343,7 +365,7 @@
     }
     /*section 3*/
     .section3{
-        height: 250vh;
+        height: 170vh;
     }
     .box-content{
         width: 100%;
@@ -363,7 +385,7 @@
         bottom: -20px;
     }
     .box-content{
-        height: 78%;
+        height: 65%;
     }
     .footing{
         height: 5%;
@@ -768,80 +790,5 @@
         text-align: center;
         line-height: 50px;
         cursor: pointer;
-    }
-}
-@media screen and (orientation: landscape){
-    body{
-        width: 2.65em;
-        height: 100%;
-    }
-    .logo-text h1::before{
-        top: 80%;
-        width: 70%;
-        left: 15%;
-    }
-    .content2{
-        height: 100vh;
-    }
-    .heading{
-        height: 30%;
-    }
-    .heading h1{
-        font-size: 18px;
-    }
-    .heading h6{
-        font-size: 12px;
-    }
-    .text{
-        height: 50%;
-    }
-    .text p{
-        font-size: 14px;
-    }
-    .images{
-        height: 40%;
-    }
-    .images .img img{
-        width: 120px;
-        height: 100%;
-    }
-    .contact3{
-        height: 100vh;
-    }
-    .heading1{
-        height: 15%;
-    }
-    .heading2{
-        height: 10%;
-    }
-    .heading2 h1{
-        font-size: 18px;
-        line-height: 70px;
-    }
-    .heading2 h1::before{
-        bottom: 0;
-    }
-    .box-content{
-        height: 50%;
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-        justify-content: space-around;
-        margin: auto;
-    }
-    .box .img img{
-        width: 100px;
-        height: 100px;
-    }
-    .box h3{
-        font-size: 14px;
-        margin-top: 1px;
-    }
-    .footing{
-        height: 10%;
-    }
-    .footing h6{
-        font-size: 16px;
-        line-height: 50px;
     }
 }
