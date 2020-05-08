@@ -63,8 +63,12 @@
         font-size: 100px;
         margin-left: 0px;
     }
+    .logo-text h1::before{
+        top:95%;
+    }
     .logo-text h6{
         left: 35%;
+        top: 110%;
     }
     /*section2*/
     .section2{
@@ -145,10 +149,10 @@
     }
     /*section4*/
     .section4{
-        height: 350vh;
+        height: 400vh;
     }
     #heading2{
-        height: 8%;
+        height: 10%;
         background-color: #ffffff;
     }
     .port-slideshow{
@@ -166,26 +170,27 @@
     }
     .images-portfolio{
         display: block;
-
+        justify-content: space-around;
     }
     .images-portfolio .img1{
-        margin-left: 30%;
-        width: 340px;
-        margin-top: 80px;
+        margin-left: 35%;
+        width: 280px;
+        margin-top: 0px;
         min-height: 30%;
     }
     .images-portfolio .img1 img{
-        width: 320px;
-        height: 416px;
+        width: 260px;
+        height: 320px;
     }
     .images-portfolio .img1 h1{
         margin-top: -300px;
         right: 5px;
-        font-size: 46px;
+        font-size: 36px;
     }
     .images-portfolio .img1 h6{
-        font-size: 24px;
+        font-size: 18px;
         width: 80%;
+        margin-left: 5%;
     }
     #img8 h6, #img9 h6, #img10 h6, #img11 h6{
         width: 100%;
@@ -211,11 +216,22 @@
 
     /*section6*/
     .section6{
-        height: 90vh;
+        height: 150vh;
+    }
+    #heading6{
+        height: 7%;
     }
     .contact .form{
         width: 90%;
-        height: 90%;
+        height: 75%;
+    }
+    .contact .form input{
+        font-size: 18px;
+    }
+    .contact .form textarea{
+        min-height: 100px;
+        max-height: 100px;
+        font-size: 18px;
     }
     /*section7*/
     .section7{
@@ -399,7 +415,7 @@
     }
     /*section 4*/
     .section4{
-        height: 300vh;
+        height: 200vh;
     }
     #heading2{
         height: 10%;
@@ -408,7 +424,7 @@
         margin-top: 40px;
     }
     .portfolio{
-        height: 85%;
+        height: 90%;
     }
     #images1, #images2, #images3, #images4,#images5, #images6{
         height: 70%;
@@ -420,8 +436,9 @@
     }
     .images-portfolio .img1{
         margin-left: 35%;
-        height: 40%;
+        height: 45%;
         width: 260px;
+        margin-top: 15px;
     }
     .images-portfolio .img1 img{
         width: 240px;
@@ -530,8 +547,8 @@
         width: 20%;
         height: 20%;
         transform: translate(-20%,-20%);
-        left: 25%;
-        top: 5%;
+        left: 20%;
+        top: 10%;
     }
     .logo-text h1{
         width: 100%;
@@ -541,15 +558,15 @@
     }
     .logo-text h1::before{
         width: 240%;
-        top: 85%;
-        left: 15%;
+        top: 70%;
+        left: 40%;
     }
     .logo-text h6{
         width: 100%;
-        left: 80%;
+        left: 110%;
         bottom: 25%;
         font-size: 8px;
-        top: 100%;
+        top: 95%;
     }
     /*section 2*/
     .section2{
@@ -624,11 +641,12 @@
         margin-top: 30px;
     }
     .portfolio{
-        height: 85%;
+        height: 90%;
     }
     .images-portfolio .img1{
         margin-left: 27%;
-        height: 35%;
+        height: 40%;
+        margin-top: 30px;
     }
     .images-portfolio .img1 img{
         width: 200px;
