@@ -559,7 +559,7 @@
     .logo-text h1{
         width: 100%;
         font-size: 40px;
-        margin-left: 0px;
+        margin-left: 15px;
         font-weight: 600;
     }
     .logo-text h1::before{
