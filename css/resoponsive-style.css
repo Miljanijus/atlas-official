@@ -553,13 +553,13 @@
         width: 20%;
         height: 20%;
         transform: translate(-20%,-20%);
-        left: 20%;
+        left: 25%;
         top: 10%;
     }
     .logo-text h1{
         width: 100%;
         font-size: 40px;
-        margin-left: 20px;
+        margin-left: 15%;
         font-weight: 600;
     }
     .logo-text h1::before{
