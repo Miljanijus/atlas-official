@@ -233,9 +233,12 @@
         max-height: 100px;
         font-size: 18px;
     }
+    .contact .form input:last-child{
+        margin-top: 15px;
+    }
     /*section7*/
     .section7{
-        height: 200vh;
+        height: 280vh;
         overflow-x: hidden;
     }
     .map{
@@ -270,7 +273,8 @@
         margin-left: 50px;
     }
     .social{
-        margin-top: 100px;
+        margin-top: 80px;
+        margin-bottom: 20px;
     }
     .linkedin a, .instagram a, .pinterest a{
         font-size: 16px;
@@ -340,44 +344,42 @@
         margin-left: 0px;
     }
     .logo-text h1::before{
-        top: 45%;
+        top: 65%;
         left: 17%;
     }
     .logo-text h6{
         left: 35%;
-        top: 60%;
+        top: 70%;
     }
     /*section 2*/
     .section2{
-        height: 220vh;
+        height: 160vh;
     }
     .heading{
-        height: 12%;
+        height: 20%;
     }
     .heading h1{
         font-size: 20px;
     }
     .heading h6{
-        font-size: 14px;
+        font-size: 12px;
     }
     .text{
-        height: 17%;
+        height: 40%;
     }
     .text p{
-        font-size: 16px;
+        font-size: 14px;
     }
     .images{
-        height: 70%;
+        height: 50%;
     }
     .images .images-about{
         width: 50%;
-        height: 30%;
-        display: block;
-        margin-left: 35%;
-        margin-top: 5%;
+        height: 100%;
+        margin-left: 10%;
     }
     .images .img img{
-        margin-top: 30px;
+        height: 100%;
     }
     /*section 3*/
     .section3{
@@ -386,22 +388,21 @@
     .box-content{
         width: 100%;
         height: 70%;
-        display: block;
     }
     .heading1{
-        height: 8%;
+        height: 10%;
         margin-bottom: 25px;
     }
     .heading1 h1{
-        font-size: 24px;
+        font-size: 20px;
         margin-bottom: 0;
-        line-height: 80px;
+        line-height: 40px;
     }
     .heading2 h1::before{
-        bottom: -20px;
+        bottom: -10px;
     }
     .box-content{
-        height: 65%;
+        height: 60%;
     }
     .footing{
         height: 5%;
@@ -411,17 +412,19 @@
     }
     .footing h6{
         font-size: 12px;
-        line-height: 50px;
+        line-height: 40px;
     }
     /*section 4*/
     .section4{
-        height: 200vh;
+        height: 220vh;
     }
     #heading2{
         height: 10%;
+        font-size: 20px;
     }
     #heading3 h6{
-        margin-top: 40px;
+        margin-top: 20px;
+        font-size: 12px;
     }
     .portfolio{
         height: 90%;
@@ -435,8 +438,8 @@
         margin-top: 0;
     }
     .images-portfolio .img1{
-        margin-left: 35%;
-        height: 45%;
+        margin-left: 30%;
+        height: 40%;
         width: 260px;
         margin-top: 15px;
     }
@@ -479,7 +482,7 @@
     }
     /*Section 6*/
     .section6{
-        height: 140vh;
+        height: 155vh;
     }
     #heading6{
         height: 10%;
@@ -487,12 +490,15 @@
     #heading7{
         width: 50%;
     }
+    .contact .form input:last-child{
+        margin-top: 5px;
+    }
     /*section 7*/
     .section7{
-        height: 220vh;
+        height: 245vh;
     }
     #heading8 h1{
-        font-size: 24px;
+        font-size: 20px;
     }
     #heading9{
         width: 55%;
@@ -558,7 +564,7 @@
     }
     .logo-text h1::before{
         width: 240%;
-        top: 70%;
+        top: 80%;
         left: 40%;
     }
     .logo-text h6{
@@ -583,7 +589,7 @@
         font-size: 12px;
     }
     .text{
-        height: 27%;
+        height: 40%;
     }
     .text p{
         margin-top: 10px;
@@ -591,7 +597,10 @@
         letter-spacing: 1px;
     }
     .images{
-        height: 63%;
+        height: 50%;
+    }
+    .images .img{
+        margin-top: 10px;
     }
     .images .img img{
         width: 120px;
@@ -599,11 +608,12 @@
     }
     .images .images-about{
         height: 33%;
+        display: block;
         margin-left: 35%;
     }
     /*section 3*/
     .section3{
-        height: 120vh;
+        height: 130vh;
     }
     .heading1{
         height: 10%;
@@ -616,6 +626,7 @@
     }
     .box-content{
         height:70%;
+        display: block;
     }
     .box .img img{
         width: 120px;
@@ -626,6 +637,7 @@
     }
     .footing{
         height: 5%;
+        line-height: 25px;
     }
     /*section 4*/
     .section4{
@@ -719,7 +731,6 @@
         margin-top: 20px;
     }
     .adress{
-        margin-top: 0;
         margin-left: 25%;
         height: 5%;
     }
@@ -736,6 +747,7 @@
     .social{
         width: 30%;
         display: block;
+        margin-top: 100px;
     }
     .linkedin img, .instagram img, .pinterest img{
         width: 50px;
@@ -746,10 +758,10 @@
     }
     .privacy-content{
         width: 80%;
-        margin-top: 60px;
+        margin-top: 20px;
     }
     .privacy, .terms{
-        margin-top: 60px;
+        margin-top: 35px;
     }
     .privacy a, .terms a{
         font-size: 12px;
