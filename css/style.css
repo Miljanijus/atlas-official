@@ -11,6 +11,9 @@ body{
     overflow-x: hidden;
     
 }
+body.overflow{
+    overflow: hidden;
+}
 /*Header style*/
 header{
     width: 100vw;
@@ -199,8 +202,8 @@ header .navigation .nav ul li:hover ul{
 }
 /*Section2 style*/
 .section2{
-    width: 100vw;
-    height: 130vh;
+    width: 100%;
+    height: 100vh;
     overflow-y: hidden;
 }
 .content2{
@@ -258,34 +261,34 @@ header .navigation .nav ul li:hover ul{
 }
 .images{
     width: 100%;
-    height: 45%;
+    height: 55%;
     background-color: #F9F9F9;
     margin-top: 5%;
     margin: auto;
 }
 .images .images-about{
     width: 90%;
-    height: 100%;
+    height: 40%;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-around;
 }
 .images .img{
-    flex: 0 0 30%;
-    width: 320px;
+    flex: 0 30% 30%;
+    width: 280px;
     max-height: 420px;
     margin-left: 5%;
 }
 .images .img img{
-    width: 320px;
+    width: 280px;
     height: 100%;
 }
 /*Section3 style*/
 .section3{
-    width: 100vw;
-    height: 130vh;
+    width: 100%;
+    height: 100vh;
     overflow-y: hidden;
 }
 .content3{
@@ -319,7 +322,7 @@ header .navigation .nav ul li:hover ul{
     position: relative;
     letter-spacing: 2px;
     height: 50px;
-    line-height: 140px;
+    line-height: 70px;
 }
 .heading2 h1::before{
     content: '';
@@ -328,11 +331,11 @@ header .navigation .nav ul li:hover ul{
     background-color: #36363D;
     position: absolute;
     left: 0;
-    bottom: -60px;
+    bottom: 0;
 }
 .box-content{
     width: 55%;
-    height: 55%;
+    height: 50%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -340,14 +343,14 @@ header .navigation .nav ul li:hover ul{
     margin: auto;
 }
 .box{
-    flex: 0 0 35%;
+    flex: 0 0 30%;
     justify-content: center;
     align-items: center;
     text-align: center;
 }
 .box .img img{
-    width: 190px;
-    height: 190px;
+    width: 150px;
+    height: 150px;
 }
 .box h3{
     font-size: 14px;
@@ -380,12 +383,12 @@ header .navigation .nav ul li:hover ul{
     font-weight: 800;
     color: #36363D;
     letter-spacing: 2px;
-    line-height: 140px;
+    line-height: 100px;
 }
 /*Section4 style*/
 .section4{
-    width: 100vw;
-    height: 110vh;
+    width: 100%;
+    height: 100vh;
     overflow-y: hidden;
 }
 .content4{
@@ -394,7 +397,7 @@ header .navigation .nav ul li:hover ul{
     display: block;
 }
 #heading2{
-    height: 25%;
+    height: 20%;
     background-color: #ffffff;
 }
 #heading3{
@@ -411,7 +414,7 @@ header .navigation .nav ul li:hover ul{
 }
 .portfolio{
     width: 100%;
-    height: 75%;
+    height: 80%;
     background-color: #F9F9F9;
     display: flex;
     flex-wrap: wrap;
@@ -532,7 +535,7 @@ header .navigation .nav ul li:hover ul{
 }
 /*Section5 style*/
 .section5{
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     overflow-y: hidden;
 }
@@ -573,40 +576,55 @@ header .navigation .nav ul li:hover ul{
     overflow-x: scroll;
 }
 .list{
-    width: 25%;
-    height: 100%;
-    margin: auto;
+    width: 10%;
+    min-height:100%;
 }
 #list1, #list2, #list5, #list6{
-    width: 25%;
+    width: 30%;
     height: 100%;
-    
 }
 #list3{
     width: 25%;
-    height: 100%;
+    height: 70%;
 }
 #list4{
     width: 25%;
-    height: 100%;
+    height: 200%;
     
 }
 #list7{
     width: 25%;
     height: 100%;
-   
+}
+#list1 img{
+    width: 130px;
+    height: 80%;
+    margin-top: 3%;
+}
+#list3 img{
+    width: 150px;
+    height: 85%;
+}
+#list4 img{
+    width: 700px;
+    
+}
+#list7 img{
+    width: 400px;
+    height: 90%;
 }
 .list img{
-    width: 150px;
+    max-width: 200px;
     height: 100%;
+    margin-left: 25%;
 }
 .list img:hover{
     transform: scale(1.03);
 }
 /*Section6 style*/
 .section6{
-    width: 100vw;
-    height: 120vh;
+    width: 100%;
+    height: 100vh;
     overflow-y: hidden;
 }
 .content6{
@@ -614,11 +632,11 @@ header .navigation .nav ul li:hover ul{
     height: 100%;
 }
 #heading6{
-    height: 20%;
+    height: 15%;
 }
 .contact{
     width: 100%;
-    height: 80%;
+    height: 85%;
 }
 .contact .form{
     width: 60%;
@@ -644,8 +662,8 @@ header .navigation .nav ul li:hover ul{
 .contact .form textarea{
     min-width: 100%;
     max-width: 100%;
-    max-height: 200px;
-    min-height: 200px;
+    max-height: 100px;
+    min-height: 100px;
     border: none;
     border-bottom: 1px solid #36363D;
     font-family: 'Poiret One', cursive;
@@ -659,13 +677,13 @@ header .navigation .nav ul li:hover ul{
 .contact .form input:last-child{
     background-color: transparent;
     border: none;
-    margin-top: 60px;
+    margin-top: 20px;
     cursor: pointer;
 }
 /*Section7 style*/
 .section7{
-    width: 100vw;
-    height: 170vh;
+    width: 100%;
+    height: 100vh;
     overflow-y: hidden;
 }
 .content7{
@@ -674,41 +692,41 @@ header .navigation .nav ul li:hover ul{
     display: block;
 }
 #heading8{
-    height: 10%;
+    height: 15%;
     margin-bottom: 0;
 }
 #heading9{
-    height: 10%;
+    height: 15%;
 }
 .empty{
     width: 100%;
-    height: 10%;
+    height: 20%;
     margin-top: 0px;
 }
 .find-us{
     width: 100%;
-    height: 80%;
+    height: 61%;
     background-color: #36363D;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
 }
 .map{
     width: 50%;
-    height: 47%;
-    margin:auto;
+    height: 100%;
 }
 .map iframe{
-    width: 80%;
-    height: 85%;
-    margin-left: 10%;
-    margin-top: 8%;
+    width: 100%;
+    height: 100%;
+}
+.adress-content{
+    width: 50%;
+    height: 100%;
 }
 .adress{
-    width: 70%;
-    height: 7%;
-    margin:auto;
-    margin-top: 35px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    width: 40%;
+    height: 30%;
+    margin-left: 35%;
 }
 .adress1, .adress2, .adress3{
     flex: 0 0 33%;
@@ -716,25 +734,34 @@ header .navigation .nav ul li:hover ul{
     line-height: 100%;
     justify-content: center;
     align-items: center;
-    margin-left: 10%;
 }
 .adress1 img{
     width: 20px;
     position: relative;
     margin-top: 30px;
+    margin-left: 5px;
 }
 .adress2 img{
     width: 30px;
     position: relative;
     margin-top: 30px;
-    margin-left: 25px;
 }
 .adress3 img{
     width: 30px;
     position: relative;
     margin-top: 30px;
 }
-.adress1 h1, .adress3 h1{
+.adress h1{
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 3px;
+    font-family: 'Poiret One', cursive;
+    color: #ffffff;
+    margin-left: 50px;
+    margin-top: -25px;
+    letter-spacing: 3px;
+}
+.adress3 h1{
     font-size: 20px;
     font-weight: 400;
     margin-left: 3px;
@@ -750,7 +777,7 @@ header .navigation .nav ul li:hover ul{
     margin-left: 3px;
     font-family: 'Poiret One', cursive;
     color: #ffffff;
-    margin-left: 70px;
+    margin-left: 50px;
     margin-top: -25px;
     letter-spacing: 3px;
 }
@@ -758,7 +785,7 @@ header .navigation .nav ul li:hover ul{
     margin-left: 50px;
 }
 .social{
-    width: 55%;
+    width: 50%;
     height: 20%;
     margin:auto;
     display: flex;
@@ -774,41 +801,24 @@ header .navigation .nav ul li:hover ul{
     text-align: center;
 }
 .linkedin img, .instagram img, .pinterest img{
-    width: 60px;
-    margin-top: 60px;
-}
-.linkedin a, .instagram a, .pinterest a{
-    font-size: 20px;
-    font-weight: 400;
-    margin-left: 3px;
-    font-family: 'Poiret One', cursive;
-    color: #ffffff;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-    text-decoration: none;
-    
+    width: 50px;
+    margin-top: 50px;
 }
 .privacy{
     width: 100%;
-    height: 15%;
+    height: 10%;
 }
 .privacy-content{
-    width: 60%;
-    height: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    margin: auto;
+    width: 100%;
+    height: 50%;
 }
 .privacy, .terms{
-    flex: 0 50%;
-    height: 0%;
+    width: 100%;
+    height: 50%;
+    text-align: center;
 }
 .privacy a, .terms a{
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 400;
     font-family: 'Poiret One', cursive;
     color: #ffffff;
@@ -816,6 +826,7 @@ header .navigation .nav ul li:hover ul{
     text-transform: uppercase;
     text-decoration: none;
     line-height: 24px;
+    cursor: pointer;
 }
 /*Job application*/
 .job-app{
@@ -1158,12 +1169,13 @@ header .navigation .nav ul li:hover ul{
 .gallery-center{
     width: 27%;
     height: 95%;
-    margin: auto;
     margin-top: 1%;
     display: block;
     overflow: hidden;
     z-index: 10;
+    margin-left: 3%;
 }
+
 .gallery-center .left, .left1, .left2, .left3,
 .left4,.left5, .left6, .left7, .left8, .left9,
 .left10, .left11, .left12,.left13, .left14, .left15, 
