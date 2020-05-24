@@ -9,11 +9,20 @@
         margin-left: 25px;
     }
     /*section2*/
+    .heading h6{
+        font-size: 14px;
+    }
+    .text{
+        height: 30%;
+    }
+    .text p{
+        font-size: 14px;
+    }
     .images-about{
         width: 100%;
     }
     .images .img{
-        width: 220px;
+        width: 160px;
         min-height: 60%;
         margin-left: 10%;
     }
@@ -69,7 +78,7 @@
     }
     /*section2*/
     .section2{
-        height: 150vh;
+        height: 130vh;
     }
     .heading{
         width: 50%;
@@ -84,12 +93,12 @@
         height: 35%;
     }
     .images .img{
-        width: 140px;
+        width: 180px;
         min-height: 100%;
         margin-left: 5%;
     }
     .images .img img{
-        width: 140px;
+        width: 160px;
         height: 100%;
     }
     .text{
@@ -128,8 +137,8 @@
         margin: auto;
     }
     .box .img img{
-        width: 130px;
-        height: 130px;
+        width: 120px;
+        height: 120px;
     }
     .box h3{
         font-size: 16px;
@@ -210,7 +219,23 @@
     #heading6{
         background-color: #ffffff;
     }
-
+    #list1, #list2, #list5, #list6{
+        width: 35%;
+        height: 100%;
+    }
+    #list3{
+        width: 35%;
+        height: 70%;
+    }
+    #list4{
+        width: 35%;
+        height: 200%;
+        
+    }
+    #list7{
+        width: 35%;
+        height: 100%;
+    }
     /*section6*/
     .section6{
         height: 150vh;
@@ -370,14 +395,19 @@
         font-size: 14px;
     }
     .images{
-        height: 50%;
+        height: 30%;
     }
     .images .images-about{
-        width: 50%;
+        width: 100%;
         height: 100%;
-        margin-left: 10%;
+        
+    }
+    .images .img{
+        width: 120px;
+        min-height: 100%;
     }
     .images .img img{
+        width: 120px;
         height: 100%;
     }
     /*section 3*/
@@ -523,17 +553,47 @@
     .adress{
         margin-left: 20%;
     }
-    .adress1 h1, .adress2 h2, .adress3 h3{
-        font-size: 16px;
+    .adress1 img{
+        width: 15px;
+        margin-top: 15px;
+    }
+    .adress2 img{
+        width: 20px;
+        margin-top: 15px;
+    }
+    .adress3 img{
+        width: 20px;
+        margin-top: 15px;
+    }
+    .adress1 h1, .adress2 h1, .adress3 h1{
+        font-size: 12px;
+    }
+    .adress1 h1{
+        margin-top: -20px;
+    }
+    .adress3 h1{
+        margin-top: -20px;
+    }
+    .adress2 h1{
+        margin-top: -20px;
     }
     .social{
         width: 70%;
+        height: 15%;
+        margin-top: 10px;
+        margin-bottom: 50px;
+    }
+    .linkedin img, .instagram img, .pinterest img{
+        width: 25px;
     }
     .privacy-content{
         width: 100%;
     }
     .privacy, .terms{
         margin-top: 0;
+    }
+    .privacy a, .terms a{
+        font-size: 12px;
     }
 }
 @media (max-width:460px){
@@ -597,6 +657,7 @@
     /*section 2*/
     .section2{
         height: 160vh;
+        overflow-x: hidden;
     }
     .heading{
         width: 100%;
@@ -710,22 +771,39 @@
         width: 100%;
     }
     #list1, #list2, #list5, #list6{
-        width: 50%;
+        width: 80%;
         height: 100%;
     }
     #list3{
-        width: 50%;
+        width: 80%;
         height: 100%;
     }
     #list4{
-        width: 50%;
+        width: 80%;
         height: 100%;
         
     }
     #list7{
-        width: 50%;
+        width: 80%;
         height: 100%;
        
+    }
+    #list1 img{
+        width: 130px;
+        height: 80%;
+        margin-top: 3%;
+    }
+    #list3 img{
+        width: 150px;
+        height: 85%;
+    }
+    #list4 img{
+        width: 700px;
+        
+    }
+    #list7 img{
+        width: 400px;
+        height: 90%;
     }
     /*section 6*/
     .section6{
@@ -778,7 +856,7 @@
     }
     .adress{
         width: 60%;
-        height: 30%;
+        height: 25%;
         margin: auto;
     }
     .adress1 h1{
@@ -793,7 +871,7 @@
     }
     .social{
         width: 30%;
-        height: 30%;
+        height: 25%;
         display: block;
         margin-top: 0;
     }
@@ -806,10 +884,10 @@
     }
     .privacy-content{
         width: 100%;
-        height: 30%;
+        height: 25%;
     }
     .privacy, .terms{
-        margin-top: 30px;
+        margin-top: 10px;
     }
     .privacy a, .terms a{
         font-size: 12px;
